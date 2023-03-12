@@ -9,3 +9,52 @@ body {
   background: #b1e7f5;
   color: #380a81;
 }
+
+.container {
+  max-width: 40rem;
+  margin: 0 auto;
+  
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.title {
+  margin-bottom: 0;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+
+.item__title {
+  width: 100%;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  padding: 1.5rem 1rem;
+}
+
+.item__text {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.item__cross {
+  font-size: 1.5rem;
+}
+
+.item__input {
+  appearance: none;
+  -webkit-appearance: none;
+}
